@@ -78,9 +78,9 @@ const paymentArticle = {
   reflectionPrompt:
     "Before your next online checkout, ask: does this payment option match my need for speed, proof, and peace of mind?",
   memberRoles: [
-    { name: "Angela Gabriel Basa", role: "Lead Researcher" },
-    { name: "Kendrick Paul Castro", role: "Visual Designer" },
-    { name: "Beatrize Pearl Egoy", role: "Content Strategist" },
+    { name: "Angela Gabriel Basa", role: "Proofreader" },
+    { name: "Kendrick Paul Castro", role: "Editor" },
+    { name: "Beatrize Pearl Egoy", role: "Layout Artist" },
     { name: "Michael James Gabing", role: "Researcher" },
     { name: "Khasandra Claudine Gama", role: "Researcher" },
     { name: "Jerlord Villee Javier", role: "Media Contributor" },
