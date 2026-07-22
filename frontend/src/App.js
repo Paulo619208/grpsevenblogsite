@@ -43,18 +43,18 @@ const sourceHighlights = [
 const contributorProfiles = [
   {
     name: "Angela Gabriel Basa",
-    role: "Lead Researcher",
-    bio: "Mapped the article structure and verified evidence-based recommendations."
+    role: "Proofreader",
+    bio: "Reviewed grammar, clarity, and consistency to ensure the article reads smoothly."
   },
   {
     name: "Kendrick Paul Castro",
-    role: "Visual Designer",
-    bio: "Crafted the immersive layouts, typography, and article illustrations."
+    role: "Editor",
+    bio: "Refined structure, tone, and flow so the final article felt polished and cohesive."
   },
   {
     name: "Beatrize Pearl Egoy",
-    role: "Content Strategist",
-    bio: "Refined the writing style and shaped the experience for readers."
+    role: "Layout Artist",
+    bio: "Designed the page layouts, visual hierarchy, and presentation of the article."
   }
 ];
 
