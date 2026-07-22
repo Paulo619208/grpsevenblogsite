@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b515b342-80bb-4578-848b-7ea37d4a5513",
+    "name": "Demo Author",
+    "email": "demo@example.com",
+    "passwordHash": "6b152de4210ce9fb41e1b73f342b5f10fa9f943e246b9855e2f3a0dfdaeeded9",
+    "salt": "08c1b1121ee57f22853ae0f9b9577709",
+    "createdAt": "2026-07-22T14:44:08.194Z"
+  },
+  {
+    "id": "6546fd5b-7feb-45fa-ba14-e723e5c07062",
+    "name": "Paulo",
+    "email": "paulo@gmail.com",
+    "passwordHash": "4414d06e96ae683d1fd95b0b6bf644df93fd7c51211bee8e49b5b3ffd9f1039f",
+    "salt": "058df8c2b80c75b7c7176d78ece01f1d",
+    "createdAt": "2026-07-22T14:48:52.884Z"
+  }
+]
