@@ -52,7 +52,7 @@ const contributorProfiles = [
     bio: "Crafted the immersive layouts, typography, and article illustrations."
   },
   {
-    name: "Jessa Cruz",
+    name: "Beatrize Pearl Egoy",
     role: "Content Strategist",
     bio: "Refined the writing style and shaped the experience for readers."
   }
@@ -499,7 +499,7 @@ function ContentPage({
             <h1 className="display-5 fw-bold mb-3">{article.title}</h1>
             <p className="lead mb-2">{article.subtitle}</p>
             <small>
-              Published on {article.publishedDate} · {article.readingTime}
+              Published on {article.publishedDate} Â· {article.readingTime}
             </small>
           </Container>
         </div>
@@ -917,7 +917,7 @@ function ContributorsPage({ article, articleError, isArticleLoading }) {
             <ul className="mb-0">
               {article.memberRoles.map((member) => (
                 <li key={member.name}>
-                  <strong>{member.name}</strong> — {member.role}
+                  <strong>{member.name}</strong> â€” {member.role}
                 </li>
               ))}
             </ul>
