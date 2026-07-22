@@ -13,7 +13,7 @@ const paymentArticle = {
     {
       heading: "Overview of E-Commerce Payments in the Philippines",
       paragraphs: [
-        "How do you usually pay when shopping online? Do you tap your e-wallet, use your card, or wait until your order arrives before paying? These days, Filipinos have more payment options than ever before. But despite the growing popularity of digital payments, many shoppers still prefer the familiarity and security of Cash on Delivery (COD). This shows that when it comes to paying online, convenience isn't the only thing that matters—trust and accessibility matter, too.",
+        "How do you usually pay when shopping online? Do you tap your e-wallet, use your card, or wait until your order arrives before paying? These days, Filipinos have more payment options than ever before. But despite the growing popularity of digital payments, many shoppers still prefer the familiarity and security of Cash on Delivery (COD). This shows that when it comes to paying online, convenience isn't the only thing that mattersâ€”trust and accessibility matter, too.",
         "According to 2C2P (2026), the Philippines recorded a total e-commerce volume of US$20 billion in 2026, with online payment methods such as digital wallets and real-time domestic payments making up 73% of all transactions. Meanwhile, cash and other alternative payment methods accounted for the remaining 27%. Once considered one of the most cash-dependent countries in Southeast Asia, the Philippines has come a long way in embracing digital payments.",
         "The rise of e-commerce has made online shopping more popular because it's convenient, affordable, and easy to access. During the COVID-19 pandemic, digital cash transfer initiatives also helped many Filipinos become more familiar with mobile wallets and other online financial services. According to the United Nations Development Programme (2021), these programs improved the accessibility and efficiency of financial transactions, encouraging more people to adopt cashless payments.",
         "Digital payments have also made it easier for aspiring entrepreneurs to start online businesses without the high costs of opening a physical store. However, business owners still face an important question: Which payment methods should they offer? Having too many options can make operations more complicated and costly, while offering too few might discourage customers from completing their purchases.",
@@ -39,7 +39,7 @@ const paymentArticle = {
     {
       heading: "Remittance Services and Payment Centers",
       paragraphs: [
-        "Remittance services and over-the-counter (OTC) payment centers—such as Palawan Express, Bayad Center, and local pawnshops—bridge the gap for unbanked consumers across the country. They allow buyers without bank accounts or digital wallets to pay cash in person for their online orders."
+        "Remittance services and over-the-counter (OTC) payment centersâ€”such as Palawan Express, Bayad Center, and local pawnshopsâ€”bridge the gap for unbanked consumers across the country. They allow buyers without bank accounts or digital wallets to pay cash in person for their online orders."
       ],
       imageUrl: "/images/Pasted Image 4.png",
       imageCaption: "Palawan Pawnshop and Palawan Express Pera Padala payment outlet"
@@ -57,7 +57,7 @@ const paymentArticle = {
       heading: "Conclusion: Designing for Customer Trust and Convenience",
       paragraphs: [
         "Whether you're someone who taps an e-wallet in seconds or prefers paying only when your package arrives, there's no right or wrong way to shop online. Every payment method has its own advantages, and the best choice often depends on what makes you feel most comfortable and secure.",
-        "As online shopping continues to grow in the Philippines, businesses need to remember that offering flexible payment options isn't just about keeping up with technology—it's about understanding what customers value. While cashless payments continue to reshape the way Filipinos shop, Cash on Delivery remains a trusted option for many because it offers accessibility, security, and peace of mind. By giving customers the freedom to choose how they pay, businesses can create a better shopping experience and build stronger customer trust."
+        "As online shopping continues to grow in the Philippines, businesses need to remember that offering flexible payment options isn't just about keeping up with technologyâ€”it's about understanding what customers value. While cashless payments continue to reshape the way Filipinos shop, Cash on Delivery remains a trusted option for many because it offers accessibility, security, and peace of mind. By giving customers the freedom to choose how they pay, businesses can create a better shopping experience and build stronger customer trust."
       ]
     }
   ],
@@ -80,8 +80,7 @@ const paymentArticle = {
   memberRoles: [
     { name: "Angela Gabriel Basa", role: "Lead Researcher" },
     { name: "Kendrick Paul Castro", role: "Visual Designer" },
-    { name: "Jessa Cruz", role: "Content Strategist" },
-    { name: "Beatrize Pearl Egoy", role: "Layout Artist" },
+    { name: "Beatrize Pearl Egoy", role: "Content Strategist" },
     { name: "Michael James Gabing", role: "Researcher" },
     { name: "Khasandra Claudine Gama", role: "Researcher" },
     { name: "Jerlord Villee Javier", role: "Media Contributor" },
