@@ -644,31 +644,26 @@ function ContentPage({
               <Col lg={8}>
                 <article className="article-body p-4 p-md-5">
                   <p className="standfirst">{article.standfirst}</p>
-                  {article.sections.map((section, index) => (
+                  {article.sections.map((section) => (
                     <section key={section.heading} className="mb-4">
                       <h2 className="h4">{section.heading}</h2>
                       {section.paragraphs.map((paragraph) => (
                         <p key={paragraph}>{paragraph}</p>
                       ))}
-                      {index === 0 ? (
-                        <div className="image-grid mt-4">
-                          {imageGallery.slice(0, 2).map((image) => (
-                            <figure key={image.src} className="gallery-card">
-                              <img src={image.src} alt={image.alt} />
-                              <figcaption>{image.caption}</figcaption>
-                            </figure>
-                          ))}
-                        </div>
-                      ) : null}
-                      {index === 1 ? (
-                        <div className="image-grid mt-4">
-                          {imageGallery.slice(2).map((image) => (
-                            <figure key={image.src} className="gallery-card">
-                              <img src={image.src} alt={image.alt} />
-                              <figcaption>{image.caption}</figcaption>
-                            </figure>
-                          ))}
-                        </div>
+                      {section.imageUrl ? (
+                        <figure className="my-4">
+                          <img
+                            src={section.imageUrl}
+                            alt={section.imageCaption || section.heading}
+                            className="img-fluid rounded shadow-sm w-100"
+                            style={{ maxHeight: "420px", objectFit: "cover" }}
+                          />
+                          {section.imageCaption ? (
+                            <figcaption className="figure-caption text-center mt-2 text-muted fst-italic">
+                              {section.imageCaption}
+                            </figcaption>
+                          ) : null}
+                        </figure>
                       ) : null}
                     </section>
                   ))}
@@ -718,6 +713,21 @@ function ContentPage({
                       {section.paragraphs.map((paragraph) => (
                         <p key={paragraph}>{paragraph}</p>
                       ))}
+                      {section.imageUrl ? (
+                        <figure className="my-4">
+                          <img
+                            src={section.imageUrl}
+                            alt={section.imageCaption || section.heading}
+                            className="img-fluid rounded shadow-sm w-100"
+                            style={{ maxHeight: "420px", objectFit: "cover" }}
+                          />
+                          {section.imageCaption ? (
+                            <figcaption className="figure-caption text-center mt-2 text-muted fst-italic">
+                              {section.imageCaption}
+                            </figcaption>
+                          ) : null}
+                        </figure>
+                      ) : null}
                     </section>
                   ))}
                   <blockquote className="feature-quote mt-4 mb-4">{article.highlightQuote}</blockquote>

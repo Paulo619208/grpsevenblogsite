@@ -11,45 +11,53 @@ const paymentArticle = {
     "Filipino consumers now move between cash and cashless channels with flexibility. To understand this behavior, we need to ask what makes a payment method feel practical, safe, and fair in daily life.",
   sections: [
     {
-      heading: "Introduction: Choice Has Expanded, But Habits Still Matter",
+      heading: "Overview of E-Commerce Payments in the Philippines",
       paragraphs: [
-        "Online shopping in the Philippines no longer revolves around a single way to pay. A buyer can complete a checkout through a digital wallet, approve a card payment, transfer from a bank app, or wait and hand over cash when the parcel arrives. Consumer behavior shows a layered reality: many Filipinos adopt digital tools while still keeping familiar cash practices within reach.",
-        "This mixed behavior is not confusion; it is adaptation. People make payment choices based on convenience, internet reliability, past transaction experiences, and confidence in a seller. Expository writing asks us to explain cause and effect, and the evidence points to one conclusion: payment preference in the Philippines is driven by context, not trend alone."
+        "How do you usually pay when shopping online? Do you tap your e-wallet, use your card, or wait until your order arrives before paying? These days, Filipinos have more payment options than ever before. But despite the growing popularity of digital payments, many shoppers still prefer the familiarity and security of Cash on Delivery (COD). This shows that when it comes to paying online, convenience isn't the only thing that matters—trust and accessibility matter, too.",
+        "According to 2C2P (2026), the Philippines recorded a total e-commerce volume of US$20 billion in 2026, with online payment methods such as digital wallets and real-time domestic payments making up 73% of all transactions. Meanwhile, cash and other alternative payment methods accounted for the remaining 27%. Once considered one of the most cash-dependent countries in Southeast Asia, the Philippines has come a long way in embracing digital payments.",
+        "The rise of e-commerce has made online shopping more popular because it's convenient, affordable, and easy to access. During the COVID-19 pandemic, digital cash transfer initiatives also helped many Filipinos become more familiar with mobile wallets and other online financial services. According to the United Nations Development Programme (2021), these programs improved the accessibility and efficiency of financial transactions, encouraging more people to adopt cashless payments.",
+        "Digital payments have also made it easier for aspiring entrepreneurs to start online businesses without the high costs of opening a physical store. However, business owners still face an important question: Which payment methods should they offer? Having too many options can make operations more complicated and costly, while offering too few might discourage customers from completing their purchases.",
+        "The reality is that there isn't a single payment method that works for everyone. The best option depends on the business's size, location, and target market. At the end of the day, what matters most is offering payment methods that are convenient, secure, and trusted by customers."
       ]
     },
     {
-      heading: "Why Digital Payments Grew Quickly",
+      heading: "Credit and Debit Cards",
       paragraphs: [
-        "Digital payment use expanded because it solved everyday problems. Wallet apps reduced the need to prepare exact cash, while bank-linked transfers let users send proof of payment in seconds. During lockdown years, these tools became essential because mobility was limited and contactless options felt safer.",
-        "Government and private-sector digitization efforts also normalized online transactions. Consumers who first used e-wallets for bills or remittances eventually carried that behavior into online shopping."
-      ]
+        "Credit and debit cards were among the first payment methods used in e-commerce. They can make a business appear more credible and professional, especially for customers who are comfortable with cashless transactions. However, only a small percentage of Filipinos own credit cards, limiting the number of people who can use this payment option. Card payments also involve additional processing fees and usually require merchants to work with accredited payment gateways."
+      ],
+      imageUrl: "/images/Pasted Image 2.png",
+      imageCaption: "Credit card and Point of Sale (POS) terminal transaction"
     },
     {
-      heading: "Why Cash on Delivery Remains Strong",
+      heading: "Bank Transfers and E-Wallets",
       paragraphs: [
-        "Even with digital growth, Cash on Delivery remains a preferred method for many households. COD lowers perceived risk because payment is made when the item physically arrives. For shoppers worried about failed deliveries, wrong products, or delayed refunds, this sequence feels safer. It gives buyers one final checkpoint before money leaves their hands.",
-        "COD also stays relevant because it is inclusive. Not every customer has a credit card, stable mobile data, or a verified digital account. In provincial areas where logistics and connectivity can vary, cash remains the most dependable fallback. From a behavioral standpoint, COD is not a rejection of technology; it is a trust mechanism in environments where uncertainty still exists."
-      ]
+        "Bank transfers are another secure way to receive payments because they provide well-documented transactions and direct access to funds. However, businesses often need corporate bank accounts that maintain minimum balances, and transactions may also be affected by banking hours and processing times."
+      ],
+      imageUrl: "/images/Pasted Image.png",
+      imageCaption: "Mobile banking and smartphone digital payment transactions"
     },
     {
-      heading: "Comparing Common Payment Methods",
+      heading: "Remittance Services and Payment Centers",
       paragraphs: [
-        "Cards offer speed and are widely accepted in global e-commerce systems, but eligibility requirements limit access for some users. Bank transfers produce clear records and can be reliable for higher-value purchases, yet they may involve extra steps and occasional delays. E-wallets are fast and mobile-first, although account limits, cash-in fees, and app downtime can affect confidence at checkout.",
-        "Meanwhile, payment centers and remittance outlets support customers outside formal banking, but they add an in-person step that slows order fulfillment. COD removes digital friction for first-time buyers, though it can increase operational complexity for merchants through return handling and delivery failures. Each method solves one problem while introducing another, which is why balanced payment options often outperform one-method strategies."
-      ]
+        "Remittance services and over-the-counter (OTC) payment centers—such as Palawan Express, Bayad Center, and local pawnshops—bridge the gap for unbanked consumers across the country. They allow buyers without bank accounts or digital wallets to pay cash in person for their online orders."
+      ],
+      imageUrl: "/images/Pasted Image 4.png",
+      imageCaption: "Palawan Pawnshop and Palawan Express Pera Padala payment outlet"
     },
     {
-      heading: "What This Means for Online Sellers",
+      heading: "Cash on Delivery (COD)",
       paragraphs: [
-        "For businesses, payment strategy should be treated as a customer experience decision, not only a technical integration task. A store that serves first-time online buyers may need COD and payment-center support to reduce hesitation. A store targeting repeat metropolitan customers may benefit more from wallet incentives and card promotions.",
-        "Clear communication also matters. Buyers need to see payment instructions, verification steps, fees, refund rules, and delivery timelines before placing an order. When these details are transparent, trust increases regardless of method. In expository terms, the relationship is direct: better payment clarity leads to stronger checkout confidence."
-      ]
+        "Even with the rise of cashless payments, Cash on Delivery (COD) remains one of the most popular payment methods among Filipino consumers. It allows buyers to pay only after receiving and checking their orders, giving them extra confidence before spending their money. Since it doesn't require a bank account or digital wallet, it's also accessible to almost everyone. For many shoppers, COD offers peace of mind by reducing concerns about scams and helping build trust with online sellers.",
+        "This preference can be seen in actual consumer behavior. According to Foodpanda, online payments accounted for 49% of transactions, while cash payments still made up 51% of orders (eTap Solutions, 2025). Likewise, a study by Agile Data Solutions, reported by ABS-CBN News, found that 71% of shoppers still preferred Cash on Delivery as their primary payment method."
+      ],
+      imageUrl: "/images/Pasted Image 3.png",
+      imageCaption: "Delivery rider handing over parcel and accepting cash payment on delivery"
     },
     {
-      heading: "Conclusion: Flexibility Is the Real Advantage",
+      heading: "Conclusion: Designing for Customer Trust and Convenience",
       paragraphs: [
-        "Filipino payment behavior is best understood as practical decision-making under varied conditions. Digital tools are growing because they are efficient, but cash-based methods remain vital where trust, access, or infrastructure gaps persist. Therefore, the most effective e-commerce approach is not choosing between cash and cashless systems. It is designing for both, then guiding customers with clear information at every step.",
-        "As e-commerce matures, businesses that combine accessibility with transparency will likely earn the strongest loyalty. The better question is how platforms can support different realities while keeping payments safe, understandable, and convenient for everyone."
+        "Whether you're someone who taps an e-wallet in seconds or prefers paying only when your package arrives, there's no right or wrong way to shop online. Every payment method has its own advantages, and the best choice often depends on what makes you feel most comfortable and secure.",
+        "As online shopping continues to grow in the Philippines, businesses need to remember that offering flexible payment options isn't just about keeping up with technology—it's about understanding what customers value. While cashless payments continue to reshape the way Filipinos shop, Cash on Delivery remains a trusted option for many because it offers accessibility, security, and peace of mind. By giving customers the freedom to choose how they pay, businesses can create a better shopping experience and build stronger customer trust."
       ]
     }
   ],
@@ -58,7 +66,7 @@ const paymentArticle = {
   didYouKnow: {
     title: "Did You Know?",
     content:
-      "Many online shoppers use one payment method for routine purchases and another for high-value items. This split behavior shows that confidence changes depending on product risk, delivery certainty, and refund expectations."
+      "Cash is still the favorite payment method of many Filipino online shoppers! According to Agile Data Solutions (as cited in eTap Solutions, 2025), many consumers prefer paying in cash because it protects them from paying for orders that never arrive or products that don't meet their expectations. Meanwhile, only 14% of respondents preferred using payment centers or e-wallets. These numbers highlight an important point: even as digital payments continue to grow, many Filipinos still value the sense of security that cash provides. This shows that payment preferences are shaped not only by convenience but also by trust and accessibility."
   },
   paymentMethods: [
     "Credit and debit cards",
@@ -81,11 +89,12 @@ const paymentArticle = {
     { name: "Anton Dominic Valencia", role: "Writer" }
   ],
   references: [
-    "Bangko Sentral ng Pilipinas. (2024). Report on the status of digital payments in the Philippines. https://www.bsp.gov.ph",
-    "Philippine Statistics Authority. (2024). Digital economy satellite account: Key indicators. https://psa.gov.ph",
-    "World Bank. (2022). The Global Findex Database 2021: Financial inclusion, digital payments, and resilience in the age of COVID-19. World Bank. https://doi.org/10.1596/978-1-4648-1897-4"
+    "2C2P. (2026). E-commerce payment trends in the Philippines. https://2c2p.com",
+    "Agile Data Solutions. (2025). E-commerce payment preferences among Filipino consumers. ABS-CBN News.",
+    "eTap Solutions. (2025). Cash vs. digital payments in Philippine retail and food delivery.",
+    "United Nations Development Programme. (2021). Digital payment adoption and financial inclusion in the Philippines. UNDP."
   ],
-  wordCount: 0
+  wordCount: 745
 };
 
 module.exports = paymentArticle;
