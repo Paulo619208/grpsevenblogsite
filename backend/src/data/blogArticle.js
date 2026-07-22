@@ -94,7 +94,7 @@ const paymentArticle = {
     "eTap Solutions. (2025). Cash vs. digital payments in Philippine retail and food delivery.",
     "United Nations Development Programme. (2021). Digital payment adoption and financial inclusion in the Philippines. UNDP."
   ],
-  wordCount: 745
+  wordCount: 950
 };
 
 module.exports = paymentArticle;

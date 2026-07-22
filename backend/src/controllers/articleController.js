@@ -31,11 +31,11 @@ function getPaymentArticle(_request, response) {
     wordCount: getArticleWordCount(paymentArticle)
   };
 
-  if (enrichedArticle.wordCount < 700 || enrichedArticle.wordCount > 800) {
+  if (enrichedArticle.wordCount < 700 || enrichedArticle.wordCount > 1200) {
     return response.status(500).json({
       wordCount: enrichedArticle.wordCount,
       error:
-        "Article content does not meet the required 700-800 word range. Update the content in backend/src/data/blogArticle.js."
+        "Article content does not meet the required 700-1200 word range. Update the content in backend/src/data/blogArticle.js."
     });
   }
 
